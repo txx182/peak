@@ -1,0 +1,93 @@
+/* 所有商品的隐藏 */
+.hide_list{
+	z-index: 1;
+	width: 205px;
+	height:480px;
+	background: black;
+	opacity: 0.8;
+	/* filter: alpha(opacity==80); */
+	position: absolute;
+	top: 42px;
+	left: 0;
+/* 	display: none; */
+	
+}
+.hide_list li{
+	width: 180px;
+	padding: 20px 9px 10px 18px
+}
+
+.hide_list .sort{
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.hide_list a{
+	font-size:13px;
+	color:white;
+	padding-right: 5px;
+}
+
+/* 篮球导航的隐藏 */
+
+.basket{
+	width: 562px;
+	height: 320px;
+	background: white;
+	position: absolute;
+	top: 42px;
+	z-index: 1;
+	display: none;
+}
+.basket img{
+	margin-left: 30px;
+	margin-top: 45px;
+}
+.basket_right{
+	float: right;
+	width: 275px;
+	height: 320px;
+	margin-right: 40px;
+	
+}
+.basket_list{
+	overflow: hidden;
+	
+	margin-top: 12px;
+}
+
+.basket_list h2{
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 38px;
+	border-bottom: 1px dashed #4f5055;
+}
+.basket_list h2 a,.basket_hot h2 a{
+	color: #f10000;
+}
+.basket_list a{
+	color: #626368;
+	font-size: 14px;
+	line-height: 22px;
+}
+.basket_list a:hover{
+	color: #f10000;
+	text-decoration: underline;
+}
+.basket_hot{
+	margin-bottom: 20px;
+}
+.basket_hot h2{
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 38px;
+}
+.hot_a{
+	font-size: 14px;
+	color: white;
+	background: #f10000;
+	/* line-height: 30px; */
+	padding: 2px 20px;
+	border: #741d14;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}

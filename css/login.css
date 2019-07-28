@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* 登录注册 */
+.login{
+	width:1200px;
+	margin: 38px auto;
+	margin-bottom: 100px;
+	height:440px;
+	padding-bottom: 80px;
+	background: url(../img/space.jpg) 580px -26px no-repeat;
+}
+.login_left{
+   float:left;
+   padding-top:56px;
+   padding-left:334px;
+   width:180px;
+   text-align:center;
+}
+.login_left img:nth-child(2){
+	width: 152px;
+	height: 152px;
+	margin-top: 25px;
+}
+.gzh{
+	font-size: 12px;
+	color: #979797;
+	line-height: 18px;
+}
+.shop{
+	font-size: 12px;
+	color: #E80000;
+	line-height: 18px;
+}
+.login_right{
+	float: left;
+	width: 270px;
+	margin-left: 170px;
+	margin-top:45px;
+	/* background: #741D14; */
+}
+
+.login_right  h4{
+	font-size: 14px;
+	color: #E80000;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+/* 登录 */
+.userlogin input:nth-child(1),.userlogin input:nth-child(3){
+	width:260px;
+	height:30px;
+	border:2px solid #a9a9a9;
+	text-indent: 12px;
+	font-size:12px;
+	outline:none;
+}
+.userlogin input:nth-child(1){
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.userlogin input:nth-child(4),.userlogin input:nth-child(5){
+	width: 124px;
+	height: 34px;
+	margin-top: 20px;
+	background: #A9A9A9;
+	border: none;
+	color: white;
+}
+.userlogin input:nth-child(4){
+	background: #E80000;
+	margin-left: 3px;
+}
+.userlogin a{
+	font-size: 12px;
+	color: #666;
+	margin: 0px 35px ;
+	line-height: 60px;
+}
+/* 注册 */
+
+.register{
+	display:none;
+}
+.register input{
+	outline:none;
+}
+.reg_content input:nth-child(1), .reg_content input:nth-child(4), .reg_content input:nth-child(7){
+	width:260px;
+	height:30px;
+	border:2px solid #a9a9a9;
+	margin-bottom:25px;
+	text-indent: 12px;
+	font-size:12px;
+	
+}
+.reg_content input:nth-child(4){
+	margin-bottom:0;
+}
+.reg_content input:nth-child(7){
+	margin-bottom: 10px;
+}
+.note{
+	overflow:hidden;
+}
+.note input:nth-child(1){
+	width:130px;
+	height:30px;
+	float:left;
+	border:2px solid #a9a9a9;
+	font-size:12px;
+	text-indent: 12px;
+	margin-bottom: 24px;
+}
+.compose{
+	padding-left:12px;
+	color:#959595;
+	font-size:12px;
+	margin: 5px 0;
+}
+.send{
+	width:130px;
+	height:34px;
+	float:left;
+	text-align: center;
+	line-height: 34px;
+	background: #E80000;
+	color:white;
+	font-size:14px;
+}
+
+.check{
+	font-size: 12px;
+	padding-top:5px ;
+}
+.reg_content a{
+	color: red;
+	font-size: 12px;
+	padding-left: 5px;
+}
+.immied{
+	width:264px;
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	color:white;
+	border:none;
+	background: #E80000;
+	cursor:pointer;
+	margin: 10px 0;
+}
+.register .has{
+	padding-left:58px;
+	cursor:pointer;
+	font-size:12px;
+	margin: 15px;
+}
+.register .has:hover{
+	text-decoration: underline;
+	color:red;
+}
+.login_right_bottom p{
+	border-top: 1px dashed #a9a9a9;
+	font-size:12px;
+	line-height: 34px;
+	color:#959595;
+	text-align: center;
+}
+.friend{
+	overflow: hidden;
+	margin-left:65px;
+}
+.friend a{
+	float:left;
+	width:32px;
+	height:24px;
+	margin-right: 3px;
+}
+.friend a:nth-child(1){
+	background: url(../img/buttonLoginICON_95x23.png) 0px -2px no-repeat;
+}
+.friend a:nth-child(2){
+	background: url(../img/buttonLoginICON_95x23.png) 0px -27px no-repeat;
+}
+.friend a:nth-child(3){
+	background: url(../img/buttonLoginICON_95x23.png) 0px -53px no-repeat;
+}
+.friend a:nth-child(4){
+	background: url(../img/buttonLoginICON_95x23.png) 0px -102px no-repeat;
+}
